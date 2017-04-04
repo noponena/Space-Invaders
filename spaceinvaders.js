@@ -502,7 +502,7 @@ function submitScore() {
     "messageType": "SCORE",
     "score": score
   };
-  
+
   window.parent.postMessage(msg, "*");
 }
 
@@ -534,7 +534,7 @@ function submitScore() {
 
      }
    };
-   console.log(msg);
+
    window.parent.postMessage(msg, "*");
  }
 
